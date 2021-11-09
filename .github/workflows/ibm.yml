@@ -20,7 +20,6 @@ env:
   TAG: "1.0"
   IBM_CLOUD_API_KEY: ${{ secrets.IBM_CLOUD_API_KEY }}
   IBM_CLOUD_REGION: eu-de 
-  ICR_NAMESPACE: ${{ secrets.ICR_NAMESPACE }}
   REGISTRY_HOSTNAME: ${{ secrets.DOCKER_USER }}
   IMAGE_NAME: virtualapi
   IKS_CLUSTER: bootcamp-2
