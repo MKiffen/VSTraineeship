@@ -1,0 +1,400 @@
+Ac Abcoude
+Adh Leeuwarden Achter de Hoven
+Ah Arnhem
+Ahp Arnhem Velperpoort
+Ahpr Arnhem Presikhaaf
+Ahz Arnhem Zuid
+Akl Arkel
+Akm Akkrum
+Alm Almere Centrum
+Almb Almere Buiten
+Almm Almere Muziekwijk
+Almo Almere Oostvaarders
+Almp Almere Parkwijk
+Amf Amersfoort
+Amfs Amersfoort Schothorst
+Aml Almelo
+Ampo Almere Poort
+Amr Alkmaar
+Amri Almelo De Riet
+Amrn Alkmaar Noord
+Ana Anna Paulowna
+Apd Apeldoorn
+Apdm Apeldoorn De Maten
+Apdo Apeldoorn Osseveld
+Apg Appingedam
+Apn Alphen aan den Rijn
+Arn Arnemuiden
+Asa Amsterdam Amstel
+Asb Amsterdam Bijlmer ArenA
+Asd Amsterdam Centraal
+Asdl Amsterdam Lelylaan
+Asdm Amsterdam Muiderpoort
+Asdz Amsterdam Zuid
+Ashd Amsterdam Holendrecht
+Asn Assen
+Ass Amsterdam Sloterdijk
+Assp Amsterdam Science Park
+Atn Aalten
+Avat Amersfoort Vathorst
+Bd Breda
+Bde Bunde
+Bdg Bodegraven
+Bdm Bedum
+Bdpb Breda-Prinsenbeek
+Bet Best
+Bf Baflo
+Bgn Bergen op Zoom
+Bhdv Boven Hardinxveld
+Bhv Bilthoven
+Bk Beek-Elsloo
+Bkf Bovenkarspel Flora
+Bkg Bovenkarspel-Grootebroek
+Bkl Breukelen
+Bl Beilen
+Bll Bloemendaal
+Bmn Brummen
+Bmr Boxmeer
+Bn Borne
+Bnc Barneveld Centrum
+Bnk Bunnik
+Bnn Barneveld Noord
+Bnz; 2015 Barneveld Zuid
+Bp Buitenpost
+Br Blerick
+Brd Barendrecht
+Brn Baarn
+Bsd Beesd
+Bsk Boskoop
+Bsmz Bussum Zuid
+Btl Boxtel
+Bv Beverwijk
+Bzl Kapelle-Biezelinge
+Bzm Hardinxveld Blauwe Zoom
+Cas Castricum
+Ck Cuijk
+Cl Culemborg
+Co Coevorden
+Cps Capelle Schollevaar
+Cvm Chevremont
+Da Daarlerveen
+Db Driebergen-Zeist
+Ddn Delden
+Ddr Dordrecht
+Ddrs Dordrecht Stadspolders
+Ddzd Dordrecht Zuid
+Dei Deinum
+Did Didam
+Dl Dalfsen
+Dld Den Dolder
+Dln Dalen
+Dmn Diemen
+Dmnz Diemen Zuid
+Dn Deurne
+Dr Dieren
+Drh Driehuis
+Dron Dronten
+Drp Dronrijp
+Dt Delft
+Dtc Doetinchem
+Dtch Doetinchem De Huet
+Dtz Delft Zuid
+Dv Deventer
+Dvc Deventer Colmschate
+Dvd Duivendrecht
+Dvn Duiven
+Dvnk De Vink
+Dz Delfzijl
+Dzw Delfzijl West
+Ec Echt
+Ed Ede-Wageningen
+Edc Ede Centrum
+Edn Eijsden
+Egh Eygelshoven
+Eghm Eygelshoven Markt
+Ehb Eindhoven Beukenlaan
+Ehv Eindhoven
+Ekz Enkhuizen
+Eml Ermelo
+Emn Emmen
+Emnz Emmen Zuid
+Es Enschede
+Esd Enschede Drienerlo
+Ese Enschede De Eschmarke
+Est Elst
+Etn Etten-Leur
+Fn Franeker
+Gbg Gramsbergen
+Gbr Glanerbrug
+Gd Gouda
+Gdg Gouda Goverwelle
+Gdk Geerdijk
+Gdm Geldermalsen
+Gdr Gaanderen
+Gerp Groningen Europapark
+Gk Grijpskerk
+Gln Geleen Oost
+Gn Groningen
+Gnd Hardinxveld-Giessendam
+Gnn Groningen Noord
+Go Goor
+Gp Geldrop
+Gr Gorinchem
+Gs Goes
+Gv Den Haag HS
+Gvc Den Haag Centraal
+Gvm Den Haag Mariahoeve
+Gvmw Den Haag Moerwijk
+Gw Grou-Jirnsum
+Gz Gilze-Rijen
+Had Heemstede-Aerdenhout
+Hb Hoensbroek
+Hd Harderwijk
+Hdb Hardenberg
+Hde 't Harde
+Hdg Hurdegaryp
+Hdr Den Helder
+Hdrz Den Helder Zuid
+Hfd Hoofddorp
+Hgl Hengelo
+Hglg Hengelo Gezondheidspark
+Hglo Hengelo Oost
+Hgv Hoogeveen
+Hgz Hoogezand-Sappemeer
+Hil Hillegom
+Hk Heemskerk
+Hks Hoogkarspel
+Hld Hoek van Holland Haven
+Hlds Hoek van Holland Strand
+Hlg Harlingen
+Hlgh Harlingen Haven
+Hlm Haarlem
+Hlms Haarlem Spaarnwoude
+Hlo Heiloo
+Hm Helmond
+Hmbh Helmond Brouwhuis
+Hmbv Helmond Brandevoort
+Hmh Helmond 't Hout
+Hmn Hemmen-Dodewaard
+Hn Hoorn
+Hnk Hoorn Kersenboogerd
+Hno Heino
+Hnp Hindeloopen
+Hon Holten
+Hor Hollandsche Rading
+Hr Heerenveen
+Hrl Heerlen
+Hrlk Heerlen De Kissel
+Hrlw Heerlen Woonboulevard
+Hrn Haren
+Hrt Horst-Sevenum
+Ht 's-Hertogenbosch
+Htn Houten
+Htnc Houten Castellum
+Hto 's-Hertogenbosch Oost
+Hvl Hoevelaken
+Hvs Hilversum
+Hvsm Hilversum Media Park
+Hvsp Hilversum Sportpark
+Hwd Heerhugowaard
+Hwzb Halfweg-Zwanenburg
+Hze Heeze
+IJt IJlst
+Kbd Krabbendijke
+Kbk Klarenbeek
+Kbw Koog Bloemwijk
+Klp Veenendaal-De Klomp
+Kma Krommenie-Assendelft
+Kmr Klimmen-Ransdaal
+Kmw Koudum-Molkwerum
+Kpn Kampen
+Kpnz Kampen Zuid
+Krd Kerkrade Centrum
+Krg Kruiningen-Yerseke
+Ktr Kesteren
+Kw Kropswolde
+Kzd Koog-Zaandijk
+Laa Den Haag Laan v NOI
+Lc Lochem
+Ldl Leiden Lammenschans
+Ldm Leerdam
+Ledn Leiden Centraal
+Lg Landgraaf
+Lls Lelystad Centrum
+Lp Loppersum
+Ltn Lunteren
+Ltv Lichtenvoorde-Groenlo
+Lut Geleen-Lutterade
+Lw Leeuwarden
+Lwc Leeuwarden Camminghaburen
+Mas Maarssen
+Mdb Middelburg
+Mes Meerssen
+Mg Mantgum
+Mmlh Mook Molenhoek
+Mp Meppel
+Mrb Mariënberg
+Mrn Maarn
+Mss Maassluis
+Msw Maassluis West
+Mt Maastricht
+Mth Martenshoek
+Mtn Maastricht Noord
+Mtr Maastricht Randwyck
+Mz Maarheeze
+Na Nieuw Amsterdam
+Ndb Naarden-Bussum
+Nh Nuth
+Nkk Nijkerk
+Nm Nijmegen
+Nmd Nijmegen Dukenburg
+Nmh Nijmegen Heyendaal
+Nml Nijmegen Lent
+Ns Nunspeet
+Nsch Bad Nieuweschans
+Nvd Nijverdal
+Nvp Nieuw Vennep
+Nwk Nieuwerkerk a/d IJssel
+Nwl Schiedam Nieuwland
+O Oss
+Obd Obdam
+Odb Oudenbosch
+Odz Oldenzaal
+Omn Ommen
+Op Opheusden
+Ost Olst
+Ot Oisterwijk
+Otb Oosterbeek
+Ovn Overveen
+Ow Oss West
+Pmo Purmerend Overwhere
+Pmr Purmerend
+Pmw Purmerend Weidevenne
+Pt Putten
+Rai Amsterdam RAI
+Rat Raalte
+Rb Rilland-Bath
+Rd Roodeschool
+Rh Rheden
+Rhn Rhenen
+Rl Ruurlo
+Rlb Rotterdam Lombardijen
+Rm Roermond
+Rs Rosmalen
+Rsd Roosendaal
+Rsn Rijssen
+Rsw Rijswijk
+Rta Rotterdam Alexander
+Rtb Rotterdam Blaak
+Rtd Rotterdam Centraal
+Rtn Rotterdam Noord
+Rtz Rotterdam Zuid
+Rv Reuver
+Rvs Ravenstein
+Sbk Spaubeek
+Sd Soestdijk
+Sda Scheemda
+Sdm Schiedam Centrum
+Sdt Sliedrecht
+Sdtb Sliedrecht Baanhoek
+Sgl Houthem-Sint Gerlach
+Sgn Schagen
+Shl Schiphol
+Sk Sneek
+Sknd Sneek Noord
+Sm Swalmen
+Sn Schinnen
+Sog Schin op Geul
+Spm Sappemeer Oost
+Sptn Santpoort Noord
+Sptz Santpoort Zuid
+Srn Susteren
+Ssh Sassenheim
+St Soest
+Std Sittard
+Stm Stedum
+Stv Stavoren
+Stz Soest Zuid
+Swd Sauwerd
+Swk Steenwijk
+Tb Tilburg
+Tbg Terborg
+Tbr Tilburg Reeshof
+Tbu Tilburg Universiteit
+Tg Tegelen
+Tl Tiel
+Tpsw Tiel Passewaaij
+Twl Twello
+Uhm Uithuizermeeden
+Uhz Uithuizen
+Ust Usquert
+Ut Utrecht Centraal
+Utg Uitgeest
+Utl Utrecht Lunetten
+Utlr Utrecht Leidsche Rijn
+Utm Utrecht Maliebaan
+Uto Utrecht Overvecht
+Utt Utrecht Terwijde
+Utzl Utrecht Zuilen
+Vb Voorburg
+Vd Vorden
+Vdg Vlaardingen Centrum
+Vdl Voerendaal
+Vdm Veendam
+Vdo Vlaardingen Oost
+Vdw Vlaardingen West
+Vem Voorst-Empe
+Vg Vught
+Vh Voorhout
+Vhp Vroomshoop
+Vk Valkenburg
+Vl Venlo
+Vlb Vierlingsbeek
+Vndc Veenendaal Centrum
+Vndw Veenendaal West
+Vp Velp
+Vry Venray
+Vs Vlissingen
+Vss Vlissingen Souburg
+Vst Voorschoten
+Vsv Varsseveld
+Vtn Vleuten
+Vwd Veenwouden
+Vz Vriezenveen
+Wad Waddinxveen
+Wadn Waddinxveen Noord
+Wc Wijchen
+Wd Woerden
+Wdn Wierden
+Wf Wolfheze
+Wfm Warffum
+Wh Wijhe
+Wk Workum
+Wl Wehl
+Wm Wormerveer
+Wp Weesp
+Ws Winschoten
+Wsm Winsum
+Wt Weert
+Wtv Westervoort
+Wv Wolvega
+Ww Winterswijk
+Www Winterswijk West
+Wz Wezep
+Ypb Den Haag Ypenburg
+Za Zetten-Andelst
+Zb Zuidbroek
+Zbm Zaltbommel
+Zd Zaandam
+Zdk Zaandam Kogerveld
+Zh Zuidhorn
+Zl Zwolle
+Zlw Lage Zwaluwe
+Zp Zutphen
+Ztm Zoetermeer
+Ztmo Zoetermeer Oost
+Zv Zevenaar
+Zvb Zevenbergen
+Zvt Zandvoort aan Zee
+Zwd Zwijndrecht
+Zww Zwaagwesteinde

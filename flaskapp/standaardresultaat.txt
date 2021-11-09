@@ -1,0 +1,188 @@
+{'reis': [
+        {'heenreis': [
+                {'vlucht': [
+                        {'vluchtid': '9451-2205300945--31799,
+                            -32544-2-9828-2205301615', 'vluchtvertrektijd': '2022-05-30T09: 45: 00', 'vluchtaankomsttijd': '2022-05-30T16: 15: 00', 'vluchtduur': '390', 'vluchtprijs': '438.5', 'vliegmaatschappij': 'SWISS', 'vliegveldheen': 'Amsterdam', 'vliegveldterug': 'Berlijn'
+                        },
+                        {'vluchtid': '9451-2205301645--32132-0-9828-2205301800', 'vluchtvertrektijd': '2022-05-30T16: 45: 00', 'vluchtaankomsttijd': '2022-05-30T18: 00: 00', 'vluchtduur': '75', 'vluchtprijs': '74.85', 'vliegmaatschappij': 'KLM', 'vliegveldheen': 'Amsterdam', 'vliegveldterug': 'Berlijn'
+                        },
+                        {'vluchtid': '9451-2205301450--31901-1-9828-2205302040', 'vluchtvertrektijd': '2022-05-30T14: 50: 00', 'vluchtaankomsttijd': '2022-05-30T20: 40: 00', 'vluchtduur': '350', 'vluchtprijs': '221.03', 'vliegmaatschappij': 'SAS', 'vliegveldheen': 'Amsterdam', 'vliegveldterug': 'Berlijn'
+                        }
+                    ]
+                }, '{
+                    "trein": [
+                        {
+                            "idx": 0,
+                            "ctxRecon": "arnu|fromStation=8400621|toStation=8400561|plannedFromTime=2021-11-05T08:26:00+01:00|plannedArrivalTime=2021-11-05T08:58:00+01:00|yearCard=false|excludeHighSpeedTrains=false|searchForAccessibleTrip=false",
+                            "duur": 32,
+                            "aantalOverstapen": 0,
+                            "url": "https://www.ns.nl/rpx?ctx=arnu%7CfromStation%3D8400621%7CtoStation%3D8400561%7CplannedFromTime%3D2021-11-05T08%3A26%3A00%2B01%3A00%7CplannedArrivalTime%3D2021-11-05T08%3A58%3A00%2B01%3A00%7CyearCard%3Dfalse%7CexcludeHighSpeedTrains%3Dfalse%7CsearchForAccessibleTrip%3Dfalse",
+                            "prijsInCenten": 950,
+                            "vertrekTijd": "Fri, 05 Nov 2021 07:26:00 GMT",
+                            "aankomstTijd": "Fri, 05 Nov 2021 07:58:00 GMT",
+                            "overstappen": [
+                                {
+                                    "vertrekStation": "Utrecht Centraal",
+                                    "vertrekPerron": "5",
+                                    "vertekTijd": "2021-11-05T08:26:00+0100",
+                                    "treinCode": "IC 3122",
+                                    "richting": "Schiphol Airport",
+                                    "aankomstStation": "Schiphol Airport",
+                                    "aankomstPerron": "4",
+                                    "aankomstTijd": "2021-11-05T08:58:00+0100"
+                                }
+                            ]
+                        },
+                        {
+                            "idx": 1,
+                            "ctxRecon": "arnu|fromStation=8400621|toStation=8400561|plannedFromTime=2021-11-05T08:41:00+01:00|plannedArrivalTime=2021-11-05T09:10:00+01:00|yearCard=false|excludeHighSpeedTrains=false|searchForAccessibleTrip=false",
+                            "duur": 29,
+                            "aantalOverstapen": 0,
+                            "url": "https://www.ns.nl/rpx?ctx=arnu%7CfromStation%3D8400621%7CtoStation%3D8400561%7CplannedFromTime%3D2021-11-05T08%3A41%3A00%2B01%3A00%7CplannedArrivalTime%3D2021-11-05T09%3A10%3A00%2B01%3A00%7CyearCard%3Dfalse%7CexcludeHighSpeedTrains%3Dfalse%7CsearchForAccessibleTrip%3Dfalse",
+                            "prijsInCenten": 950,
+                            "vertrekTijd": "Fri, 05 Nov 2021 07:41:00 GMT",
+                            "aankomstTijd": "Fri, 05 Nov 2021 08:10:00 GMT",
+                            "overstappen": [
+                                {
+                                    "vertrekStation": "Utrecht Centraal",
+                                    "vertrekPerron": "7",
+                                    "vertekTijd": "2021-11-05T08:41:00+0100",
+                                    "treinCode": "IC 3524",
+                                    "richting": "Schiphol Airport",
+                                    "aankomstStation": "Schiphol Airport",
+                                    "aankomstPerron": "4",
+                                    "aankomstTijd": "2021-11-05T09:10:00+0100"
+                                }
+                            ]
+                        },
+                        {
+                            "idx": 2,
+                            "ctxRecon": "arnu|fromStation=8400621|toStation=8400561|plannedFromTime=2021-11-05T08:56:00+01:00|plannedArrivalTime=2021-11-05T09:28:00+01:00|yearCard=false|excludeHighSpeedTrains=false|searchForAccessibleTrip=false",
+                            "duur": 32,
+                            "aantalOverstapen": 0,
+                            "url": "https://www.ns.nl/rpx?ctx=arnu%7CfromStation%3D8400621%7CtoStation%3D8400561%7CplannedFromTime%3D2021-11-05T08%3A56%3A00%2B01%3A00%7CplannedArrivalTime%3D2021-11-05T09%3A28%3A00%2B01%3A00%7CyearCard%3Dfalse%7CexcludeHighSpeedTrains%3Dfalse%7CsearchForAccessibleTrip%3Dfalse",
+                            "prijsInCenten": 950,
+                            "vertrekTijd": "Fri, 05 Nov 2021 07:56:00 GMT",
+                            "aankomstTijd": "Fri, 05 Nov 2021 08:28:00 GMT",
+                            "overstappen": [
+                                {
+                                    "vertrekStation": "Utrecht Centraal",
+                                    "vertrekPerron": "5",
+                                    "vertekTijd": "2021-11-05T08:56:00+0100",
+                                    "treinCode": "IC 3124",
+                                    "richting": "Schiphol Airport",
+                                    "aankomstStation": "Schiphol Airport",
+                                    "aankomstPerron": "4",
+                                    "aankomstTijd": "2021-11-05T09:28:00+0100"
+                                }
+                            ]
+                        }
+                    ]
+                }'
+            ]
+        },
+        {'terugreis': [
+                {'vlucht': [
+                        {'vluchtid': '9828-2206022030--32677-1-9451-2206030945', 'vluchtvertrektijd': '2022-06-02T20: 30: 00', 'vluchtaankomsttijd': '2022-06-03T09: 45: 00', 'vluchtduur': '795', 'vluchtprijs': '139.99', 'vliegmaatschappij': 'Air France', 'vliegveldheen': 'Berlijn', 'vliegveldterug': 'Amsterdam'
+                        },
+                        {'vluchtid': '9828-2206020830--32480-1-9451-2206021405', 'vluchtvertrektijd': '2022-06-02T08: 30: 00', 'vluchtaankomsttijd': '2022-06-02T14: 05: 00', 'vluchtduur': '335', 'vluchtprijs': '186.0', 'vliegmaatschappij': 'British Airways', 'vliegveldheen': 'Berlijn', 'vliegveldterug': 'Amsterdam'
+                        },
+                        {'vluchtid': '9828-2206020720--32221-1-9451-2206022225', 'vluchtvertrektijd': '2022-06-02T07: 20: 00', 'vluchtaankomsttijd': '2022-06-02T22: 25: 00', 'vluchtduur': '905', 'vluchtprijs': '80.99', 'vliegmaatschappij': 'Iberia Express', 'vliegveldheen': 'Berlijn', 'vliegveldterug': 'Amsterdam'
+                        }
+                    ]
+                }, '{
+                    "trein": [
+                        {
+                            "idx": 0,
+                            "ctxRecon": "arnu|fromStation=8400561|toStation=8400621|plannedFromTime=2021-11-05T08:19:00+01:00|plannedArrivalTime=2021-11-05T08:48:00+01:00|yearCard=false|excludeHighSpeedTrains=false|searchForAccessibleTrip=false",
+                            "duur": 29,
+                            "aantalOverstapen": 0,
+                            "url": "https://www.ns.nl/rpx?ctx=arnu%7CfromStation%3D8400561%7CtoStation%3D8400621%7CplannedFromTime%3D2021-11-05T08%3A19%3A00%2B01%3A00%7CplannedArrivalTime%3D2021-11-05T08%3A48%3A00%2B01%3A00%7CyearCard%3Dfalse%7CexcludeHighSpeedTrains%3Dfalse%7CsearchForAccessibleTrip%3Dfalse",
+                            "prijsInCenten": 950,
+                            "vertrekTijd": "Fri, 05 Nov 2021 07:19:00 GMT",
+                            "aankomstTijd": "Fri, 05 Nov 2021 07:48:00 GMT",
+                            "overstappen": [
+                                {
+                                    "vertrekStation": "Schiphol Airport",
+                                    "vertrekPerron": "3",
+                                    "vertekTijd": "2021-11-05T08:19:00+0100",
+                                    "treinCode": "IC 3527",
+                                    "richting": "Helmond",
+                                    "aankomstStation": "Utrecht Centraal",
+                                    "aankomstPerron": "18",
+                                    "aankomstTijd": "2021-11-05T08:48:00+0100"
+                                }
+                            ]
+                        },
+                        {
+                            "idx": 1,
+                            "ctxRecon": "arnu|fromStation=8400561|toStation=8400621|plannedFromTime=2021-11-05T08:32:00+01:00|plannedArrivalTime=2021-11-05T09:04:00+01:00|yearCard=false|excludeHighSpeedTrains=false|searchForAccessibleTrip=false",
+                            "duur": 32,
+                            "aantalOverstapen": 0,
+                            "url": "https://www.ns.nl/rpx?ctx=arnu%7CfromStation%3D8400561%7CtoStation%3D8400621%7CplannedFromTime%3D2021-11-05T08%3A32%3A00%2B01%3A00%7CplannedArrivalTime%3D2021-11-05T09%3A04%3A00%2B01%3A00%7CyearCard%3Dfalse%7CexcludeHighSpeedTrains%3Dfalse%7CsearchForAccessibleTrip%3Dfalse",
+                            "prijsInCenten": 950,
+                            "vertrekTijd": "Fri, 05 Nov 2021 07:32:00 GMT",
+                            "aankomstTijd": "Fri, 05 Nov 2021 08:04:00 GMT",
+                            "overstappen": [
+                                {
+                                    "vertrekStation": "Schiphol Airport",
+                                    "vertrekPerron": "3",
+                                    "vertekTijd": "2021-11-05T08:32:00+0100",
+                                    "treinCode": "IC 3129",
+                                    "richting": "Nijmegen",
+                                    "aankomstStation": "Utrecht Centraal",
+                                    "aankomstPerron": "19",
+                                    "aankomstTijd": "2021-11-05T09:04:00+0100"
+                                }
+                            ]
+                        },
+                        {
+                            "idx": 2,
+                            "ctxRecon": "arnu|fromStation=8400561|toStation=8400621|plannedFromTime=2021-11-05T08:49:00+01:00|plannedArrivalTime=2021-11-05T09:18:00+01:00|yearCard=false|excludeHighSpeedTrains=false|searchForAccessibleTrip=false",
+                            "duur": 29,
+                            "aantalOverstapen": 0,
+                            "url": "https://www.ns.nl/rpx?ctx=arnu%7CfromStation%3D8400561%7CtoStation%3D8400621%7CplannedFromTime%3D2021-11-05T08%3A49%3A00%2B01%3A00%7CplannedArrivalTime%3D2021-11-05T09%3A18%3A00%2B01%3A00%7CyearCard%3Dfalse%7CexcludeHighSpeedTrains%3Dfalse%7CsearchForAccessibleTrip%3Dfalse",
+                            "prijsInCenten": 950,
+                            "vertrekTijd": "Fri, 05 Nov 2021 07:49:00 GMT",
+                            "aankomstTijd": "Fri, 05 Nov 2021 08:18:00 GMT",
+                            "overstappen": [
+                                {
+                                    "vertrekStation": "Schiphol Airport",
+                                    "vertrekPerron": "3",
+                                    "vertekTijd": "2021-11-05T08:49:00+0100",
+                                    "treinCode": "IC 3529",
+                                    "richting": "Helmond",
+                                    "aankomstStation": "Utrecht Centraal",
+                                    "aankomstPerron": "18",
+                                    "aankomstTijd": "2021-11-05T09:18:00+0100"
+                                }
+                            ]
+                        }
+                    ]
+                }'
+            ]
+        }, '[
+            {
+                "hotelId": "8f2d2c3c-7827-47e3-ac9d-ad5e39516439",
+                "hotelInCheck": "15:00",
+                "hotelUitCheck": "11:00",
+                "hoteladres": "Gr\\u00fcnberger Strasse 54, Berlin",
+                "hotelnaam": "Sketch Rooms & Apartments [SANDBOX]"
+            },
+            {
+                "hotelId": "f4c52e6f-3a25-402c-a76d-cff124ed00ea",
+                "hotelInCheck": "15:00",
+                "hotelUitCheck": "11:00",
+                "hoteladres": "Belforter Str. 24, Berlin",
+                "hotelnaam": "Belfort Rooms & Apartments [SANDBOX]"
+            },
+            {
+                "hotelId": "4c415f8f-6102-4e26-96ee-5a10c7ce7491",
+                "hotelInCheck": "15:00",
+                "hotelUitCheck": "11:00",
+                "hoteladres": "Gro\\u00dfe Hamburger Str. 23, Berlin",
+                "hotelnaam": "Nook Rooms & Apartments [SANDBOX]"
+            }
+        ]'
+    ]
+}

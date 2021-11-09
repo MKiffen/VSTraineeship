@@ -1,0 +1,56 @@
+bootcamp_booking:
+  vm:
+    hostname: 'vm.booking.local'
+    box: 'ubuntu1804-base'
+    cpus: 4
+    mem: 4096
+    user: 'ubuntu'
+    host_ssh_port: 3326
+    natnet: 'VSLabNet'
+    natnet_cidr: '10.3/16'
+  network:
+    ip: '192.168.33.14'
+    domain: 'booking.local'
+  secrets:
+    ssh_key_files: '/vagrant/secrets/ssh/client2'
+  scripts: 
+    pre_process: './scripts/pre-process.sh'
+    post_process: './scripts/post-process.sh'
+    ssh_keygen: './scripts/ssh-keygen.sh'
+  config_files: './config/'
+  mounts:
+    vm_secrets:
+      host_path: './secrets'
+      guest_path: '/tmp/secrets'
+    vm_config:
+      host_path: './config'
+      guest_path: '/opt/vm_config'
+    scripts:
+      host_path: './scripts'
+      guest_path: '/opt/vm_scripts'
+  provision_script_file: './scripts/provisioners/bootcamp_booking.sh'
+  services:
+    dns:
+      type: 'client'
+      nameserver1:
+        name: ns1
+        domain: booking.local
+        ip: 8.8.4.4
+        interfaces: 'eth0 eth1'
+      nameserver2:
+        name: ns2
+        domain: booking.local
+        ip: 8.8.8.8
+        interfaces: 'eth0 eth1'
+    desktop:
+      type: 'xfce'
+      cmd: 'sudo apt install xfce4'
+    docker:
+      install:
+        script: '/opt/vm_scripts/install-docker.sh'  
+  unit_tests:
+    docker:
+      script: './scripts/test/test-docker.sh'
+      args:
+        - 'vm.booking.local /opt/vm_scripts'
+ 

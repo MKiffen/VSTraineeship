@@ -1,0 +1,32 @@
+version: '3.1'
+
+services:
+
+  wordpress:
+    image: wordpress
+    restart: always
+    ports:
+      - 8080:80
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_USER: dbuser
+      WORDPRESS_DB_PASSWORD: qw34er
+      WORDPRESS_DB_NAME: wordpressdb
+    volumes:
+      - wordpress:/var/www/html
+
+  db:
+    image: mysql:5.7
+    restart: always
+    ports:
+      - 3307:3307
+    environment:
+      MYSQL_DATABASE: wordpressdb
+      MYSQL_USER: dbuser
+      MYSQL_PASSWORD: qw34er
+      MYSQL_RANDOM_ROOT_PASSWORD: 1
+    volumes:
+      - db:/var/lib/mysql    
+volumes:
+  wordpress:
+  db:

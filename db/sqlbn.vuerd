@@ -1,0 +1,923 @@
+{
+  "canvas": {
+    "version": "2.2.6",
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": 0,
+    "scrollLeft": -8,
+    "zoomLevel": 1,
+    "show": {
+      "tableComment": true,
+      "columnComment": true,
+      "columnDataType": true,
+      "columnDefault": true,
+      "columnAutoIncrement": false,
+      "columnPrimaryKey": true,
+      "columnUnique": false,
+      "columnNotNull": true,
+      "relationship": true
+    },
+    "database": "MySQL",
+    "databaseName": "",
+    "canvasType": "ERD",
+    "language": "GraphQL",
+    "tableCase": "pascalCase",
+    "columnCase": "camelCase",
+    "highlightTheme": "VS2015",
+    "bracketType": "none",
+    "setting": {
+      "relationshipDataTypeSync": true,
+      "columnOrder": [
+        "columnName",
+        "columnDataType",
+        "columnNotNull",
+        "columnUnique",
+        "columnAutoIncrement",
+        "columnDefault",
+        "columnComment"
+      ]
+    },
+    "pluginSerializationMap": {}
+  },
+  "table": {
+    "tables": [
+      {
+        "name": "reis",
+        "comment": "",
+        "columns": [
+          {
+            "name": "reis_id",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "c3da226b-9a08-4720-8601-6460c27be46f"
+          },
+          {
+            "name": "reis_vertrekstation",
+            "comment": "",
+            "dataType": "VARCHAR(50)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 108.208984375,
+              "widthComment": 60,
+              "widthDataType": 87.71875,
+              "widthDefault": 60
+            },
+            "id": "f33f8017-07a4-4cf6-888c-03d756a63c15"
+          },
+          {
+            "name": "reis_bestemming",
+            "comment": "",
+            "dataType": "VARCHAR(50)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 100.9853515625,
+              "widthComment": 60,
+              "widthDataType": 87.71875,
+              "widthDefault": 60
+            },
+            "id": "7d2b4e6f-54d2-464f-a8b2-1d3ec6652282"
+          },
+          {
+            "name": "reis_vertrekvliegveld",
+            "comment": "",
+            "dataType": "VARCHAR(50)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 120.49169921875,
+              "widthComment": 60,
+              "widthDataType": 87.71875,
+              "widthDefault": 60
+            },
+            "id": "814c8d2d-66be-4e9f-b50a-945cbdc3d09c"
+          },
+          {
+            "name": "reis_datumheen",
+            "comment": "",
+            "dataType": "DATE",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 95.22802734375,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "1d199c6f-55f7-401c-8c4e-b52ddf36b18d"
+          },
+          {
+            "name": "reis_datumterug",
+            "comment": "",
+            "dataType": "DATE",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 95.93896484375,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "f8e9c6d2-e46d-43f3-86a4-ea38f6fed279"
+          },
+          {
+            "name": "reis_personen",
+            "comment": "",
+            "dataType": "TINYINT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 84.38623046875,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "84416da3-37da-4953-8827-cade44c6f5b8"
+          },
+          {
+            "name": "reis_querytimestamp",
+            "comment": "",
+            "dataType": "TIMESTAMP",
+            "default": "CURRENT_TIMESTAMP",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 122.65625,
+              "widthComment": 60,
+              "widthDataType": 76.87060546875,
+              "widthDefault": 147.6533203125
+            },
+            "id": "08531b9b-29e9-4dd5-9071-e407a00d4751"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 35.6662,
+          "top": 29.7777,
+          "zIndex": 240,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "68bde93e-b7d7-4425-9a17-9988a7ae7aac"
+      },
+      {
+        "name": "vlucht",
+        "comment": "",
+        "columns": [
+          {
+            "name": "vlucht_id",
+            "comment": "",
+            "dataType": "TEXT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "739f9a32-6782-4b66-9158-86462fbe6030"
+          },
+          {
+            "name": "vlucht_vertrektijd",
+            "comment": "",
+            "dataType": "DATETIME",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 99.5380859375,
+              "widthComment": 60,
+              "widthDataType": 66.7587890625,
+              "widthDefault": 60
+            },
+            "id": "9932b2ec-d595-40c4-8706-3d9282e66ee5"
+          },
+          {
+            "name": "vlucht_aankomsttijd",
+            "comment": "",
+            "dataType": "DATETIME",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 116.1689453125,
+              "widthComment": 60,
+              "widthDataType": 66.7587890625,
+              "widthDefault": 60
+            },
+            "id": "57e41beb-2349-443e-bf62-0105a400278e"
+          },
+          {
+            "name": "vlucht_duur",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 69.208984375,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "3714a712-b465-427b-a7cd-fe40747dee00"
+          },
+          {
+            "name": "vlucht_prijs",
+            "comment": "",
+            "dataType": "FLOAT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 67.025390625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "0767ffe9-cc57-46d5-969f-31916252fdac"
+          },
+          {
+            "name": "vlucht_maatschappij",
+            "comment": "",
+            "dataType": "VARCHAR(50)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 119.787109375,
+              "widthComment": 60,
+              "widthDataType": 87.71875,
+              "widthDefault": 60
+            },
+            "id": "c96d1c1f-5cac-4d74-bb7b-512d1b117170"
+          },
+          {
+            "name": "vlucht_aankomstvliegveld",
+            "comment": "",
+            "dataType": "VARCHAR(50)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 150.13525390625,
+              "widthComment": 60,
+              "widthDataType": 87.71875,
+              "widthDefault": 60
+            },
+            "id": "6df3efc5-192f-44c2-91e2-b8ea40f5e429"
+          },
+          {
+            "name": "reis_id",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "845a6e7e-2620-4f1c-b79d-ddc2468b7e3b"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 830.1108,
+          "top": 366.3337,
+          "zIndex": 205,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "d140010f-de40-4959-a492-d227ad483139"
+      },
+      {
+        "name": "hotel",
+        "comment": "",
+        "columns": [
+          {
+            "name": "hotel_id",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "3c4e88ee-618c-41ea-907b-38d09520f8a0"
+          },
+          {
+            "name": "hotel_naam",
+            "comment": "",
+            "dataType": "VARCHAR(100)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 69.93896484375,
+              "widthComment": 60,
+              "widthDataType": 94.94873046875,
+              "widthDefault": 60
+            },
+            "id": "890f39f9-f479-4ddc-9fa7-75c01211e85a"
+          },
+          {
+            "name": "hotel_adres",
+            "comment": "",
+            "dataType": "VARCHAR(250)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 69.93896484375,
+              "widthComment": 60,
+              "widthDataType": 94.94873046875,
+              "widthDefault": 60
+            },
+            "id": "18ba3287-f8ef-48b7-af0c-329cea1cd4c0"
+          },
+          {
+            "name": "hotel_incheck",
+            "comment": "",
+            "dataType": "TIME",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 81.498046875,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "7049056b-70d5-4656-a8ad-08ebb6ecbe21"
+          },
+          {
+            "name": "hotel_uitcheck",
+            "comment": "",
+            "dataType": "TIME",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 85.10986328125,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "f1d2ff9d-9005-4f75-89ac-539164382bfd"
+          },
+          {
+            "name": "hotel_externid",
+            "comment": "",
+            "dataType": "TEXT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 83.6689453125,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "102a1121-f21e-4dcc-9428-537541e38f92"
+          },
+          {
+            "name": "reis_id",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "fd797768-0855-44ef-ab04-fd68271448a3"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 92.4445,
+          "top": 533.6659,
+          "zIndex": 277,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "43afbfc6-9fb9-42f6-9338-d619844fe7bf"
+      },
+      {
+        "name": "ns",
+        "comment": "",
+        "columns": [
+          {
+            "name": "ns_id",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "53c5df52-d57c-48b1-b748-7d0d3158ab02"
+          },
+          {
+            "name": "ns_vertrektijd",
+            "comment": "",
+            "dataType": "TIME",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 79.30810546875,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "13b4630a-40c6-4dcd-b7cb-aadf73f7e479"
+          },
+          {
+            "name": "ns_aankomsttijd",
+            "comment": "",
+            "dataType": "TEXT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 95.93896484375,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "310cb9a2-c148-4ecc-a987-d561051f287d"
+          },
+          {
+            "name": "ns_duur",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "e9ad9afa-1210-4132-8234-824e4602645c"
+          },
+          {
+            "name": "ns_overstappen",
+            "comment": "",
+            "dataType": "TINYINT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 94.5107421875,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "1821fda9-2d59-407e-ade1-349d672fa8a6"
+          },
+          {
+            "name": "ns_prijs",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "ac15b243-a830-4cb0-ab41-2932429c6837"
+          },
+          {
+            "name": "reis_id",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "5378adbf-73fd-4eed-9114-054aa91fe5a6"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 824.7783,
+          "top": 15.4443,
+          "zIndex": 310,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "6106de51-5f3f-429f-90fc-e70d092eb9a3"
+      }
+    ],
+    "indexes": []
+  },
+  "memo": {
+    "memos": [
+      {
+        "value": "Iedere reis heeft 0(bij error) of meerdere ns ritten",
+        "ui": {
+          "active": false,
+          "left": 594.5555555555555,
+          "top": 26.333333333333343,
+          "zIndex": 4,
+          "width": 166,
+          "height": 100
+        },
+        "id": "d75fc72a-8214-4e96-ad1f-ee709fbe5d62"
+      },
+      {
+        "value": "Iedere reis heeft 0(bij error)\nof meerdere vluchten",
+        "ui": {
+          "active": false,
+          "left": 584.4444444444438,
+          "top": 291.8888888888893,
+          "zIndex": 236,
+          "width": 173,
+          "height": 100
+        },
+        "id": "2939b896-8b25-4e5d-93b8-d3f8e6f447d6"
+      },
+      {
+        "value": "Iedere reis heeft 0(bij error)\nof meerdere hotel zoekacties",
+        "ui": {
+          "active": false,
+          "left": 226.66666666666666,
+          "top": 329.66666666666663,
+          "zIndex": 2,
+          "width": 167,
+          "height": 100
+        },
+        "id": "8593c609-34a3-4993-8fac-25649333e58f"
+      }
+    ]
+  },
+  "relationship": {
+    "relationships": [
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "68bde93e-b7d7-4425-9a17-9988a7ae7aac",
+          "columnIds": [
+            "c3da226b-9a08-4720-8601-6460c27be46f"
+          ],
+          "x": 298.18036015625,
+          "y": 262.7777,
+          "direction": "bottom"
+        },
+        "end": {
+          "tableId": "43afbfc6-9fb9-42f6-9338-d619844fe7bf",
+          "columnIds": [
+            "fd797768-0855-44ef-ab04-fd68271448a3"
+          ],
+          "x": 295.973796875,
+          "y": 533.6659,
+          "direction": "top"
+        },
+        "constraintName": "fk_user_to_hotel",
+        "visible": true,
+        "id": "85c8568a-9334-48e9-b394-715caa403cb0"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "68bde93e-b7d7-4425-9a17-9988a7ae7aac",
+          "columnIds": [
+            "c3da226b-9a08-4720-8601-6460c27be46f"
+          ],
+          "x": 560.6945203125,
+          "y": 204.52769999999998,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "d140010f-de40-4959-a492-d227ad483139",
+          "columnIds": [
+            "845a6e7e-2620-4f1c-b79d-ddc2468b7e3b"
+          ],
+          "x": 830.1108,
+          "y": 482.8337,
+          "direction": "left"
+        },
+        "constraintName": "fk_user_to_vlucht",
+        "visible": true,
+        "id": "e471de16-0b61-42af-adc9-56de0342f612"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "68bde93e-b7d7-4425-9a17-9988a7ae7aac",
+          "columnIds": [
+            "c3da226b-9a08-4720-8601-6460c27be46f"
+          ],
+          "x": 560.6945203125,
+          "y": 88.0277,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "6106de51-5f3f-429f-90fc-e70d092eb9a3",
+          "columnIds": [
+            "5378adbf-73fd-4eed-9114-054aa91fe5a6"
+          ],
+          "x": 824.7783,
+          "y": 121.6943,
+          "direction": "left"
+        },
+        "constraintName": "fk_user_to_ns",
+        "visible": true,
+        "id": "5e00ad9c-c103-4587-817d-a1f717786a57"
+      }
+    ]
+  }
+}

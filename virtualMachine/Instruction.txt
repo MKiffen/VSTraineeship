@@ -1,0 +1,48 @@
+Intruction to setup VM, git and visual studio code connection:
+
+Op je host:
+1. start git bash and clone into 202110_bootcamp repo
+2. Go to folder 202110_bootcamp/virtualmachine
+3. run: bash vg.sh up bootcamp_booking
+	-choose configuration 1
+	-y
+4. bash vg.sh provision bootcamp_booking
+	-choose configuration 1
+	-y
+5. Change your host config file, add text below and fill in LOCATION_OF_REPO
+__________________________________________________________________________________________________________________
+
+Host bootcamp_booking.local
+  HostName 127.0.0.1
+  User vagrant
+  Port 3326
+  UserKnownHostsFile /dev/null
+  StrictHostKeyChecking no
+  PasswordAuthentication yes
+  IdentityFile LOCATION_OF_REPO/202110-booking/virtualMachine/.vagrant/machines/bootcamp_booking/virtualbox/private_key
+  IdentitiesOnly yes
+  LogLevel FATAL 
+
+__________________________________________________________________________________________________________________
+
+6. Voeg host toe aan known_hosts VM:
+	ssh-copy-id bootcamp_booking.local
+	Password: vagrant
+
+7. In Visual Studio Code go to the remote connection extenstions and connect with bootcamp_booking, Password = vagrant
+
+8. Open terminal
+9. generate ssh pub-key with ssh-keygen
+10. get the public key:cat ${HOME}/.ssh/id_rsa.pub 
+    open gitlab on a new tab and add this key to you gitlab profile. 
+11. clone into the 202110_bootcamp on your VM.
+12. Setup X2GO:
+    - bootcamp_booking
+    - Host 127.0.0.1
+    - SSH port: 3326
+    - Session type: XFCE
+    - login: empty
+
+13. Loging in on X2GO:
+    - Login: vagrant 
+    - Password: vagrant 

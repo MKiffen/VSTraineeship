@@ -1,0 +1,26 @@
+version: "3.1"
+
+services:
+  db:
+    container_name: booking_mysql
+    restart: always
+    image: mysql:latest
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: 'test_pass' # TODO: Change this
+      MYSQL_USER: 'test'
+      MYSQL_PASSWORD: 'pass'
+    command: --default-authentication-plugin=mysql_native_password
+    volumes:
+      - ./db:/docker-entrypoint-initdb.d/
+      - ~/mysql-data:/var/lib/mysql
+  flaskapp:
+    build: ./flaskapp/
+    depends_on:
+      - db
+    links:
+      - db
+    ports:
+      - "5000:5000"
+    entrypoint: python /flaskapp/main.py
