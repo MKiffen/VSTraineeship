@@ -11,7 +11,7 @@ name: Build api and db and Deploy to IKS
 on:
   push:
     branches:
-      - main
+      - master
       - dev
   workflow_dispatch:
 
