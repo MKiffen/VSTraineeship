@@ -146,6 +146,7 @@ class NsTrip: # duidelijke uitleg
         
         #code
         #Base string with arguments to pass to the base url:
+        
         argumentString =    "lang=nl"\
                             "&fromStation={fromStation}"\
                             "&toStation={toStation}"\
@@ -156,6 +157,7 @@ class NsTrip: # duidelijke uitleg
                             "&travelRequestType={travelRequestType}"
         
         #filling in arguments with the variables
+        dateTimeArrival = dateTimeArrival.replace(" ", "T")
         argumentString = argumentString.format(fromStation      = fromStationCode,
                                                toStation        = toStationCode,
                                                dateTimeArrival  = dateTimeArrival,
@@ -167,7 +169,7 @@ class NsTrip: # duidelijke uitleg
         
         #Concatting baseurl with argument string 
         url = baseurl + argumentString
-        
+        print(url, file = sys.stderr)
         #retrieving trip from NS:
         try:
             response = requests.request("GET", url, headers=headers, data=data)

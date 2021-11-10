@@ -16,6 +16,7 @@ services:
       - ./db:/docker-entrypoint-initdb.d/
       - ~/mysql-data:/var/lib/mysql
   flaskapp:
+    container_name: flaskapp
     build: ./flaskapp/
     depends_on:
       - db
@@ -24,3 +25,44 @@ services:
     ports:
       - "5000:5000"
     entrypoint: python /flaskapp/main.py
+
+  wordpress:
+    container_name: wordpress_mysql
+    image: wordpress
+    restart: always
+    ports:
+      - 8080:80
+    environment:
+      WORDPRESS_DB_HOST: wordpressdb
+      WORDPRESS_DB_USER: dbuser
+      WORDPRESS_DB_PASSWORD: qw34er
+      WORDPRESS_DB_NAME: wordpressdb
+    volumes:
+      - wordpress:/var/www/html
+
+  wordpressdb:
+    container_name: wordpressdb
+    image: mysql:5.7
+    restart: always
+    ports:
+      - 3307:3307
+    environment:
+      MYSQL_DATABASE: wordpressdb
+      MYSQL_USER: dbuser
+      MYSQL_PASSWORD: qw34er
+      MYSQL_RANDOM_ROOT_PASSWORD: 1
+    volumes:
+      - db:/var/lib/mysql    
+  portainer:
+    container_name: portainer
+    restart: "always"
+    image: portainer/portainer:latest
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /data/portainer_volume:/data
+    ports:
+      - 9090:9000
+    command: -H unix:///var/run/docker.sock
+volumes:
+  wordpress:
+  db:
